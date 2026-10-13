@@ -1,0 +1,9 @@
+2026-10-12 11:12:00.076 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-10-12 11:12:00.082 [RMI TCP Connection(8)-192.168.1.114] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2026-10-12 11:12:00.126 [RMI TCP Connection(8)-192.168.1.114] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-12 11:12:00.143 [RMI TCP Connection(8)-192.168.1.114] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-10-12 11:12:00.189 [RMI TCP Connection(8)-192.168.1.114] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-10-12 11:12:00.211 [RMI TCP Connection(8)-192.168.1.114] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2026-10-12 11:12:03.215 [RMI TCP Connection(8)-192.168.1.114] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2026-10-12 11:12:03.257 [RMI TCP Connection(8)-192.168.1.114] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_INVOICE-SERVICE/DESKTOP-OUICJIF:invoice-service:8081 - deregister  status: 200
+2026-10-12 11:12:03.259 [RMI TCP Connection(8)-192.168.1.114] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
